@@ -6,11 +6,22 @@ function mapa (vitoria, derrota, def_vitoria, def_derrota, atk_vitoria, atk_derr
     let taxa_vitoria_atk = atk_vitoria / rounds_jogados_atk * 100;
     let rounds_jogados_def = def_vitoria + def_derrota;
     let taxa_vitoria_def = def_vitoria / rounds_jogados_def * 100;
+    //Correção do NaN
+    if(isNaN(taxa_vitoria)) {
+        taxa_vitoria = 0;           
+    }
+    if(isNaN(taxa_vitoria_atk)) {
+        taxa_vitoria_atk = 0;
+    }
+    if(isNaN(taxa_vitoria_def)) {
+        taxa_vitoria_def = 0;
+    }
     //Aplicação
     ptdas_jgdas = document.getElementById(ptda_txt).innerText = parseInt(partidas_jogadas);
     taxa_vitoria = document.getElementById(vitoria_txt).innerText = parseInt(taxa_vitoria) + '%';
     taxa_derrota = document.getElementById(atk_txt).innerText = parseInt(taxa_vitoria_atk) + '%';
     taxa_defesa =document.getElementById(def_txt).innerText = parseInt(taxa_vitoria_def) + '%';
+    
 }
 
 //Covil
@@ -34,7 +45,7 @@ mapa(0, 0, 0, 0, 0, 0, 'consu_pt_jgdas', 'consu_taxa_vit', 'consu_taxa_vit_atk',
 //Café Dostoyevsky
 mapa(0, 0, 0, 0, 0, 0, 'cafe_pt_jgdas', 'cafe_taxa_vit', 'cafe_taxa_vit_atk', 'cafe_taxa_vit_def');
 //Canal
-mapa(0, 0, 0, 0, 0, 0, 'canal_pt_jgdas', 'canal_taxa_vit', 'canal_taxa_vit_atk', 'canal_taxa_vit_def');
+mapa(0, 1, 2, 2, 2, 3, 'canal_pt_jgdas', 'canal_taxa_vit', 'canal_taxa_vit_atk', 'canal_taxa_vit_def');
 //Oregon
 mapa(0, 0, 0, 0, 0, 0, 'oregon_pt_jgdas', 'oregon_taxa_vit', 'oregon_taxa_vit_atk', 'oregon_taxa_vit_def');
 //Outback
@@ -45,3 +56,4 @@ mapa(0, 0, 0, 0, 0, 0, 'arranha_pt_jgdas', 'arranha_taxa_vit', 'arranha_taxa_vit
 mapa(0, 0, 0, 0, 0, 0, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def');
 //Mansão
 mapa(0, 0, 0, 0, 0, 0, 'mansao_pt_jgdas', 'mansao_taxa_vit', 'mansao_taxa_vit_atk', 'mansao_taxa_vit_def');
+// Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
