@@ -33,7 +33,7 @@ mapa(0, 0, 0, 0, 0, 0, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'p
 //Banco
 mapa(0, 0, 0, 0, 0, 0, 'banco_pt_jgdas', 'banco_taxa_vit', 'banco_taxa_vit_atk', 'banco_taxa_vit_def');
 //Fronteira
-mapa(0, 0, 0, 0, 0, 0, 'front_pt_jgdas', 'front_taxa_vit', 'front_taxa_vit_atk', 'front_taxa_vit_def');
+mapa(0, 1, 0, 3, 0, 1, 'front_pt_jgdas', 'front_taxa_vit', 'front_taxa_vit_atk', 'front_taxa_vit_def');
 //Chalé
 mapa(0, 0, 0, 0, 0, 0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def');
 //Clube
@@ -49,9 +49,9 @@ mapa(0, 1, 2, 2, 2, 3, 'canal_pt_jgdas', 'canal_taxa_vit', 'canal_taxa_vit_atk',
 //Oregon
 mapa(0, 0, 0, 0, 0, 0, 'oregon_pt_jgdas', 'oregon_taxa_vit', 'oregon_taxa_vit_atk', 'oregon_taxa_vit_def');
 //Outback
-mapa(0, 0, 0, 0, 0, 0, 'out_pt_jgdas', 'out_taxa_vit', 'out_taxa_vit_atk', 'out_taxa_vit_def');
+mapa(0, 1, 1, 2, 1, 2, 'out_pt_jgdas', 'out_taxa_vit', 'out_taxa_vit_atk', 'out_taxa_vit_def');
 //Arranha-céu
-mapa(0, 0, 0, 0, 0, 0, 'arranha_pt_jgdas', 'arranha_taxa_vit', 'arranha_taxa_vit_atk', 'arranha_taxa_vit_def');
+mapa(1, 0, 2, 0, 2, 1, 'arranha_pt_jgdas', 'arranha_taxa_vit', 'arranha_taxa_vit_atk', 'arranha_taxa_vit_def');
 //Parque Tematico
 mapa(0, 0, 0, 0, 0, 0, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def');
 //Mansão
