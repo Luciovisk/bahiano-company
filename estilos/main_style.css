@@ -1,0 +1,131 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+:root {
+    --cor0: #333640;
+    --cor1: #1F222B;
+    --cor2: #0C0F14;
+    
+    --cor-fonte: #A4A5AA;
+    --fonte-destaque: "Bebas Neue", sans-serif;;
+    --fonte-padrao: "Roboto", sans-serif;
+}
+* {
+    margin: 0px;
+}
+body {
+    background-color: var(--cor2);
+}
+/*Menu de navegação*/
+nav {
+    background-color: var(--cor0);
+    padding: 20px;
+}
+nav>img {
+    max-width: 30px;
+    vertical-align: middle;
+}
+nav>a {
+    font: bold 1.2em var(--fonte-padrao);
+    color: var(--cor-fonte);
+    text-decoration: none;
+    margin-left: 20px;
+}
+nav>a:hover, a#atual {
+    color: white;
+}
+/*Principal - Início*/
+.inicio {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.inicio>article {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor0);
+    margin-top: 20px;
+}
+.inicio>article>h1 {
+    background-color: var(--cor2);
+    font: normal 2.2em var(--fonte-destaque);
+    color: var(--cor-fonte);
+    padding: 0px 15px;
+}
+.inicio>article>p {
+    font: normal 1.2em var(--fonte-padrao);
+    color: white;
+    line-height: 40px;
+    padding: 0px 15px;
+}
+/*Principal - Jogadores*/
+.jogadores {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.jogadores>article {
+    display: flex;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor0);
+    margin-top: 20px;
+}
+.jogadores>article>div>img {
+    padding: 7px;
+}
+.jogadores>article>div>h1 {
+    font: normal 2.5em var(--fonte-destaque);
+    color: var(--cor-fonte);
+    padding: 0px 10px;
+}
+.jogadores>article>div>h2 {
+    font: normal 1.3em var(--fonte-padrao);
+    color: white;
+    line-height: 50px;
+    padding: 0px 10px;
+}
+.jogadores>article>div span {
+    color: var(--cor-fonte);
+}
+/*Principal - Estatísticas*/
+.stats {
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.stats>article {
+    display: flex;
+    background-color: var(--cor1);
+    border: 1px solid var(--cor0);
+    margin-top: 20px;
+}
+.stats>article>div>img {
+    padding: 7px;
+}
+.stats_numeros {
+    margin: auto;
+}
+.stats_numeros>h1 {
+    text-align: center;
+    font: normal 2.5em var(--fonte-destaque);
+    color: var(--cor-fonte);
+}
+.stats_numeros>hr {
+    margin: 10px 0px;
+}
+.stats_numeros ul {
+    columns: 2;
+}
+.stats_numeros li {
+    list-style-type: none;
+}
+.stats_numeros li>h1 {
+    text-align: center;
+    font: normal 1.5em var(--fonte-padrao);
+    color: var(--cor-fonte);
+    line-height: 50px;
+}
+.stats_numeros li>p {
+    text-align: center;
+    font: normal 1.2em var(--fonte-padrao);
+    color: white;
+}
