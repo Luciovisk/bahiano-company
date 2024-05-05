@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bahiano Company - Area de </title>
+    <link rel="stylesheet" href="../estilos/main_style.css">
+</head>
+<body>
+    <nav>
+        <img src="../imagens/Bandeira_da_Bahia.png" alt="Imagem da bandeira oficial do estado da Bahia">
+        <a href="inicio.html">Início</a>
+        <a href="jogadores.html">Jogadores</a>
+        <a href="mapas.html">Mapas</a>
+    </nav>
+    <main class="admin">
+        <article>
+            <h1>Informe o placar da partida</h1>
+            <div>
+                <h2>Informe o mapa jogado</h2>
+                <select id="mapa_jogado">
+                    <option value="covil">Covil</option>
+                    <option value="laboratorio">Laboratórios Nighthaven</option>
+                    <option value="planicie">Planície Esmeralda</option>
+                    <option value="banco">Banco</option>
+                    <option value="fronteira">Fronteira</option>
+                    <option value="chale">Chalé</option>
+                    <option value="clube">Clube</option>
+                    <option value="litoral">Litoral</option>
+                    <option value="consulado">Consulado</option>
+                    <option value="cafe">Café Dostoyevsky</option>
+                    <option value="canal">Canal</option>
+                    <option value="oregon">Oregon</option>
+                    <option value="outback">Outback</option>
+                    <option value="arranha">Arranha-céu</option>
+                    <option value="parque">Parque Temático</option>
+                    <option value="mansao">Mansão</option>
+                </select>
+            </div>
+            <div>
+                <h2>Placar da Defesa</h2>
+                <input type="number" class="placar" id="placar_defesa_v" autofocus>
+                <input type="number" class="placar" id="placar_defesa_d">
+            </div>
+            <div>
+                <h2>Placar do Ataque</h2>
+                <input type="number" class="placar" id="placar_ataque_v">
+                <input type="number" class="placar" id="placar_ataque_d">
+            </div>
+            <div>
+                <h2>Placar da Defesa Overtime</h2>
+                <input type="number" class="placar" id="placar_defesa_ot_v">
+                <input type="number" class="placar" id="placar_defesa_ot_d">
+            </div>
+            <div>
+                <h2>Placar do Ataque Overtime</h2>
+                <input type="number" class="placar" id="placar_ataque_ot_v">
+                <input type="number" class="placar" id="placar_ataque_ot_d">
+            </div>
+            <div>
+                <button onclick="limpar_dados()">Limpar</button>
+                <button onclick="adicionar_dados()">Registrar</button>
+            </div>
+        </article>
+        <script src="../scripts/contador_rounds.js"></script>
+    </main>
+</body>
+</html>

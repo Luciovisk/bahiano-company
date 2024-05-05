@@ -130,3 +130,47 @@ nav>a:hover, a#atual {
     font: normal 1.2em var(--fonte-padrao);
     color: white;
 }
+/*Principal - Painel de Administração*/
+.admin {
+    max-width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.admin>article {
+    background-color: var(--cor1);
+    border: 1px solid var(--cor0);
+    margin-top: 20px;
+}
+.admin>article>h1 {
+    background-color: var(--cor2);
+    text-align: center;
+    font: normal 2.5em var(--fonte-destaque);
+    color: var(--cor-fonte);
+    padding: 5px 15px;
+}
+.admin>article>div {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.admin>article>div>h2 {
+    text-align: center;
+    font: normal 1.7em var(--fonte-destaque);
+    color: var(--cor-fonte);
+}
+.admin>article>div>input {
+    text-align: center;
+    font: normal 1.6em var(--fonte-destaque);
+    width: 200px;
+    margin: 0px 5px;
+}
+.admin>article>div>select {
+    text-align: center;
+    font: normal 1.5em var(--fonte-destaque);
+    width: 430px;
+}
+.admin>article>div>button {
+    font: normal 1.4em var(--fonte-destaque);
+    padding: 15px;
+    margin: 10px 5px;
+}
