@@ -111,24 +111,25 @@ nav>a:hover, a#atual {
     color: var(--cor-fonte);
 }
 .stats_numeros>hr {
-    margin: 10px 0px;
+    margin: 10px 20px;
 }
 .stats_numeros ul {
-    columns: 2;
+    columns: 3;
 }
 .stats_numeros li {
     list-style-type: none;
+    padding: 5px 0px;
 }
 .stats_numeros li>h1 {
     text-align: center;
-    font: normal 1.5em var(--fonte-padrao);
+    font: normal 1.3em var(--fonte-padrao);
     color: var(--cor-fonte);
-    line-height: 50px;
 }
 .stats_numeros li>p {
     text-align: center;
-    font: normal 1.2em var(--fonte-padrao);
+    font: normal 1.1em var(--fonte-padrao);
     color: white;
+    padding-top: 5px;
 }
 /*Principal - Painel de Administração*/
 .admin {
