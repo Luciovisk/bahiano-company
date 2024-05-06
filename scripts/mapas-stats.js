@@ -27,7 +27,7 @@ function mapa (vitoria, derrota, def_vitoria, def_derrota, atk_vitoria, atk_derr
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
 //Covil
-mapa(0, 0,      0, 0,      0, 0,      0, 'covil_pt_jgdas', 'covil_taxa_vit', 'covil_taxa_vit_atk', 'covil_taxa_vit_def', 'covil_ban');
+mapa(0, 0,      0, 0,      0, 0,      1, 'covil_pt_jgdas', 'covil_taxa_vit', 'covil_taxa_vit_atk', 'covil_taxa_vit_def', 'covil_ban');
 
 
 
@@ -37,7 +37,7 @@ mapa(0, 0,      0, 0,      0, 0,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab_tax
 
 
 //Planície Esmeralda
-mapa(0, 0,      0, 0,      0, 0,      0, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
+mapa(0, 1,      2, 2,      1, 3,      1, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
 
 
 
@@ -54,17 +54,17 @@ mapa(0, 0,      0, 0,      0, 0,      0, 'front_pt_jgdas', 'front_taxa_vit', 'fr
 
 
 //Chalé
-mapa(0, 0,      0, 0,      0, 0,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
+mapa(1, 0,      3, 1,      1, 1,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
 
 
 
 //Clube
-mapa(0, 0,      0, 0,      0, 0,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
+mapa(0, 1,      2, 2,      1, 3,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
 
 
 
 //Litoral
-mapa(0, 0,      0, 0,      0, 0,      0, 'litoral_pt_jgdas', 'litoral_taxa_vit', 'litoral_taxa_vit_atk', 'litoral_taxa_vit_def', 'litoral_ban');
+mapa(1, 0,      2, 1,      2, 1,      0, 'litoral_pt_jgdas', 'litoral_taxa_vit', 'litoral_taxa_vit_atk', 'litoral_taxa_vit_def', 'litoral_ban');
 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
@@ -84,7 +84,7 @@ mapa(0, 0,      0, 0,      0, 0,      0, 'canal_pt_jgdas', 'canal_taxa_vit', 'ca
 
 
 //Oregon
-mapa(0, 0,      0, 0,      0, 0,      0, 'oregon_pt_jgdas', 'oregon_taxa_vit', 'oregon_taxa_vit_atk', 'oregon_taxa_vit_def', 'oregon_ban');
+mapa(1, 0,      2, 1,      2, 1,      0, 'oregon_pt_jgdas', 'oregon_taxa_vit', 'oregon_taxa_vit_atk', 'oregon_taxa_vit_def', 'oregon_ban');
 
 
 
@@ -101,11 +101,11 @@ mapa(0, 0,      0, 0,      0, 0,      0, 'arranha_pt_jgdas', 'arranha_taxa_vit',
 
 
 //Parque Tematico
-mapa(0, 0,      0, 0,      0, 0,      0, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def', 'parque_ban');
+mapa(0, 0,      0, 0,      0, 0,      2, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def', 'parque_ban');
 
 
 
 //Mansão
-mapa(0, 0,      0, 0,      0, 0,      0, 'mansao_pt_jgdas', 'mansao_taxa_vit', 'mansao_taxa_vit_atk', 'mansao_taxa_vit_def', 'mansao_ban');
+mapa(0, 1,      1, 2,      1, 2,      0, 'mansao_pt_jgdas', 'mansao_taxa_vit', 'mansao_taxa_vit_atk', 'mansao_taxa_vit_def', 'mansao_ban');
 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota AT
