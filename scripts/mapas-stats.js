@@ -32,17 +32,17 @@ mapa(0, 0,      0, 0,      0, 0,      1, 'covil_pt_jgdas', 'covil_taxa_vit', 'co
 
 
 //Laboratório
-mapa(0, 0,      0, 0,      0, 0,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab_taxa_vit_atk', 'lab_taxa_vit_def', 'lab_ban');
+mapa(1, 1,      4, 2,      2, 3,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab_taxa_vit_atk', 'lab_taxa_vit_def', 'lab_ban');
 
 
 
 //Planície Esmeralda
-mapa(0, 1,      2, 2,      1, 3,      1, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
+mapa(0, 1,      2, 2,      1, 3,      2, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
 
 
 
 //Banco
-mapa(0, 0,      0, 0,      0, 0,      0, 'banco_pt_jgdas', 'banco_taxa_vit', 'banco_taxa_vit_atk', 'banco_taxa_vit_def', 'banco_ban');
+mapa(0, 0,      0, 0,      0, 0,      1, 'banco_pt_jgdas', 'banco_taxa_vit', 'banco_taxa_vit_atk', 'banco_taxa_vit_def', 'banco_ban');
 
 
 
@@ -54,17 +54,17 @@ mapa(0, 0,      0, 0,      0, 0,      0, 'front_pt_jgdas', 'front_taxa_vit', 'fr
 
 
 //Chalé
-mapa(1, 0,      3, 1,      1, 1,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
+mapa(2, 0,      3, 1,      1, 1,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
 
 
 
 //Clube
-mapa(0, 1,      2, 2,      1, 3,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
+mapa(0, 1,      5, 2,      2, 3,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
 
 
 
 //Litoral
-mapa(1, 0,      2, 1,      2, 1,      0, 'litoral_pt_jgdas', 'litoral_taxa_vit', 'litoral_taxa_vit_atk', 'litoral_taxa_vit_def', 'litoral_ban');
+mapa(1, 1,      4, 2,      2, 4,      0, 'litoral_pt_jgdas', 'litoral_taxa_vit', 'litoral_taxa_vit_atk', 'litoral_taxa_vit_def', 'litoral_ban');
 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
@@ -91,17 +91,17 @@ mapa(1, 0,      2, 1,      2, 1,      0, 'oregon_pt_jgdas', 'oregon_taxa_vit', '
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
 //Outback
-mapa(0, 0,      0, 0,      0, 0,      0, 'out_pt_jgdas', 'out_taxa_vit', 'out_taxa_vit_atk', 'out_taxa_vit_def', 'out_ban');
+mapa(0, 0,      0, 0,      0, 0,      1, 'out_pt_jgdas', 'out_taxa_vit', 'out_taxa_vit_atk', 'out_taxa_vit_def', 'out_ban');
 
 
 
 //Arranha-céu
-mapa(0, 0,      0, 0,      0, 0,      0, 'arranha_pt_jgdas', 'arranha_taxa_vit', 'arranha_taxa_vit_atk', 'arranha_taxa_vit_def', 'arranha_ban');
+mapa(0, 0,      0, 0,      0, 0,      2, 'arranha_pt_jgdas', 'arranha_taxa_vit', 'arranha_taxa_vit_atk', 'arranha_taxa_vit_def', 'arranha_ban');
 
 
 
 //Parque Tematico
-mapa(0, 0,      0, 0,      0, 0,      2, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def', 'parque_ban');
+mapa(0, 1,      2, 2,      2, 3,      2, 'parque_pt_jgdas', 'parque_taxa_vit', 'parque_taxa_vit_atk', 'parque_taxa_vit_def', 'parque_ban');
 
 
 
