@@ -54,12 +54,12 @@ mapa(0, 0,      0, 0,      0, 0,      0, 'front_pt_jgdas', 'front_taxa_vit', 'fr
 
 
 //Chalé
-mapa(2, 0,      3, 1,      1, 1,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
+mapa(1, 0,      3, 1,      1, 1,      0, 'chale_pt_jgdas', 'chale_taxa_vit', 'chale_taxa_vit_atk', 'chale_taxa_vit_def', 'chale_ban');
 
 
 
 //Clube
-mapa(0, 1,      5, 2,      2, 3,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
+mapa(1, 1,      5, 2,      2, 3,      0, 'clube_pt_jgdas', 'clube_taxa_vit', 'clube_taxa_vit_atk', 'clube_taxa_vit_def', 'clube_ban');
 
 
 
