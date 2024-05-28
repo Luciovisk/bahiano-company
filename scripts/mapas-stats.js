@@ -32,12 +32,12 @@ mapa(1, 1,      4, 2,      2, 0,      11, 'covil_pt_jgdas', 'covil_taxa_vit', 'c
 
 
 //Laboratório
-mapa(3, 4,      13, 8,      7, 14,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab_taxa_vit_atk', 'lab_taxa_vit_def', 'lab_ban');
+mapa(4, 4,      16, 10,      9, 16,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab_taxa_vit_atk', 'lab_taxa_vit_def', 'lab_ban');
 
 
 
 //Planície Esmeralda
-mapa(0, 1,      2, 2,      1, 3,      22, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
+mapa(0, 1,      2, 2,      1, 3,      23, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
 
 
 
@@ -49,7 +49,7 @@ mapa(5, 1,      14, 5,      10, 10,      3, 'banco_pt_jgdas', 'banco_taxa_vit', 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
 //Fronteira
-mapa(2, 2,      6, 6,      1, 6,      0, 'front_pt_jgdas', 'front_taxa_vit', 'front_taxa_vit_atk', 'front_taxa_vit_def', 'front_ban');
+mapa(3, 2,      8, 7,      3, 7,      0, 'front_pt_jgdas', 'front_taxa_vit', 'front_taxa_vit_atk', 'front_taxa_vit_def', 'front_ban');
 
 
 
@@ -106,6 +106,6 @@ mapa(2, 2,      8, 5,      6, 8,      6, 'parque_pt_jgdas', 'parque_taxa_vit', '
 
 
 //Mansão
-mapa(1, 3,      5, 7,      2, 8,      4, 'mansao_pt_jgdas', 'mansao_taxa_vit', 'mansao_taxa_vit_atk', 'mansao_taxa_vit_def', 'mansao_ban');
+mapa(1, 4,      6, 9,      2, 10,      4, 'mansao_pt_jgdas', 'mansao_taxa_vit', 'mansao_taxa_vit_atk', 'mansao_taxa_vit_def', 'mansao_ban');
 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota AT
