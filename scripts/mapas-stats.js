@@ -39,10 +39,10 @@ mapa(5, 5,      19, 13,      12, 19,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab
 //Planície Esmeralda
 mapa(0, 1,      2, 2,      1, 3,      27, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
 
-DEF 1-2 | ATK 3-1
+
 
 //Banco
-mapa(5, 1,      14, 5,      10, 10,      4, 'banco_pt_jgdas', 'banco_taxa_vit', 'banco_taxa_vit_atk', 'banco_taxa_vit_def', 'banco_ban');
+mapa(6, 1,      16, 7,      13, 11,      4, 'banco_pt_jgdas', 'banco_taxa_vit', 'banco_taxa_vit_atk', 'banco_taxa_vit_def', 'banco_ban');
 
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 

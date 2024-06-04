@@ -19,20 +19,26 @@ body {
 }
 /*Menu de navegação*/
 nav {
+    border-radius: 0px 0px 35px 35px;
+    width: 90vw;
     background-color: var(--cor0);
     padding: 20px;
+    margin: auto;
 }
-nav>img {
-    max-width: 30px;
-    vertical-align: middle;
+nav>div {
+    text-align: center;
 }
-nav>a {
+nav>div>a {
     font: bold 1.2em var(--fonte-padrao);
     color: var(--cor-fonte);
     text-decoration: none;
     margin-left: 20px;
 }
-nav>a:hover, a#atual {
+nav>div>a>img {
+    max-width: 50px;
+    vertical-align: middle;
+}
+nav>div>a:hover, a#atual {
     color: white;
 }
 /*Principal - Início*/
