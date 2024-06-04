@@ -124,7 +124,7 @@ nav>div>a:hover, a#atual {
 }
 .stats_numeros li {
     list-style-type: none;
-    padding: 5px 0px;
+    padding: 15px 0px;
 }
 .stats_numeros li>h1 {
     text-align: center;
