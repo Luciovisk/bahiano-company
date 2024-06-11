@@ -37,7 +37,7 @@ mapa(5, 5,      19, 13,      12, 19,      0,'lab_pt_jgdas', 'lab_taxa_vit', 'lab
 
 
 //Planície Esmeralda
-mapa(0, 1,      2, 2,      1, 3,      31, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
+mapa(0, 1,      2, 2,      1, 3,      32, 'plan_pt_jgdas', 'plan_taxa_vit', 'plan_taxa_vit_atk', 'plan_taxa_vit_def', 'plan_ban');
 
 
 
@@ -67,7 +67,7 @@ mapa(3, 4,      12, 16,      15, 14,      0, 'litoral_pt_jgdas', 'litoral_taxa_v
 // Vitoria -> Derrota -> Vitoria DEF -> Derrota DEF -> Vitoria ATK -> Derrota ATK
 
 //Consulado
-mapa(3, 1,      10, 5,      6, 8,      1, 'consu_pt_jgdas', 'consu_taxa_vit', 'consu_taxa_vit_atk', 'consu_taxa_vit_def', 'consu_ban');
+mapa(4, 1,      13, 5,      7, 8,      1, 'consu_pt_jgdas', 'consu_taxa_vit', 'consu_taxa_vit_atk', 'consu_taxa_vit_def', 'consu_ban');
 
 
 
